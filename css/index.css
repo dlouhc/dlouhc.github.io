@@ -8,7 +8,7 @@ body {
   margin: 0
 }
 
-main {
+master {
   display: block
 }
 
@@ -405,7 +405,7 @@ canvas:not(#ribbon-canvas),
   -ms-animation: scroll-down-effect 1.5s infinite;
   animation: scroll-down-effect 1.5s infinite;
 }
-.reward-main {
+.reward-master {
   -webkit-animation: donate_effcet 0.3s 0.1s ease both;
   -moz-animation: donate_effcet 0.3s 0.1s ease both;
   -o-animation: donate_effcet 0.3s 0.1s ease both;
@@ -3922,10 +3922,10 @@ h1.page-title + .tag-cloud-list {
 .post-reward:hover .reward-button {
   background: var(--btn-hover-color);
 }
-.post-reward:hover > .reward-main {
+.post-reward:hover > .reward-master {
   display: block;
 }
-.post-reward .reward-main {
+.post-reward .reward-master {
   position: absolute;
   bottom: 40px;
   left: 0;
@@ -3934,14 +3934,14 @@ h1.page-title + .tag-cloud-list {
   padding: 0 0 15px;
   width: 100%;
 }
-.post-reward .reward-main .reward-all {
+.post-reward .reward-master .reward-all {
   display: inline-block;
   margin: 0;
   padding: 20px 10px;
   border-radius: 4px;
   background: var(--reward-pop);
 }
-.post-reward .reward-main .reward-all:before {
+.post-reward .reward-master .reward-all:before {
   position: absolute;
   bottom: -10px;
   left: 0;
@@ -3949,7 +3949,7 @@ h1.page-title + .tag-cloud-list {
   height: 20px;
   content: '';
 }
-.post-reward .reward-main .reward-all:after {
+.post-reward .reward-master .reward-all:after {
   position: absolute;
   right: 0;
   bottom: 2px;
@@ -3962,17 +3962,17 @@ h1.page-title + .tag-cloud-list {
   border-left: 13px solid transparent;
   content: '';
 }
-.post-reward .reward-main .reward-all .reward-item {
+.post-reward .reward-master .reward-all .reward-item {
   display: inline-block;
   padding: 0 8px;
   list-style-type: none;
   vertical-align: top;
 }
-.post-reward .reward-main .reward-all .reward-item img {
+.post-reward .reward-master .reward-all .reward-item img {
   width: 130px;
   height: 130px;
 }
-.post-reward .reward-main .reward-all .reward-item .post-qr-code-desc {
+.post-reward .reward-master .reward-all .reward-item .post-qr-code-desc {
   width: 130px;
   color: #858585;
 }
@@ -4443,7 +4443,7 @@ mjx-container[display],
   -ms-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
 }
-#article-container .gallery-group-main {
+#article-container .gallery-group-master {
   overflow: auto;
   padding: 0 0 16px;
 }
@@ -5257,7 +5257,7 @@ blockquote.pullquote.right {
 [data-theme='dark'] #disqusjs #dsqjs .dsqjs-post-body blockquote {
   color: rgba(255,255,255,0.7);
 }
-[data-theme='dark'] #artitalk_main #lazy {
+[data-theme='dark'] #artitalk_master #lazy {
   background: #121212;
 }
 [data-theme='dark'] #operare_artitalk .c2 {

@@ -432,7 +432,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     }
 
-    // main of scroll
+    // master of scroll
     window.tocScrollFn = function () {
       return btf.throttle(function () {
         const currentTop = window.scrollY || document.documentElement.scrollTop
